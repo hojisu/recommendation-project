@@ -9,7 +9,7 @@
 온라인 행동 정보, 거래 정보, 고객 Demographic 정보, 상품분류 정보 데이터가 있습니다.
 
 ## Exploratory Daya Analysis
-데이터는 implicit 데이터였습니다. 상품에 대한 비선호도가 반영되지 않았다. 추천시스템이 많이 사용되는 explicit한 점수(rank)데이터를 포함하고 있지 않기 때문에 고객이 구매한 상품 구매 수량으로 데이터 전처리를 진행하였습니다. 
+데이터는 implicit 데이터였습니다. 상품에 대한 비선호도가 반영되지 않았습니다. 추천시스템이 많이 사용되는 explicit한 점수(rank)데이터를 포함하고 있지 않기 때문에 고객이 구매한 상품 구매 수량으로 데이터 전처리를 진행하였습니다. 
 
 ## Recommend System - ALS
 implicit 데이터로 사용자의 비선호도가 반영되지 않았기 때문에 Latent Factor model이 적합하다고 생각하였고 사용자와 아이템을 Latent Factor로 분해하고 이를 각각 학습시키는 Matrix Factorization기법을 사용하였습니다. 평점 행렬을 사용자와 아이템 Latent Factor 행렬로 분해하고 분해된 행렬을 다시 곱하여 예측 평점 행렬을 계산한다. Latent Factor Matrix가 적절하게 학습이 되었다면 예측된 값과 실제 값이 유사한 결과를 낼 것이다. 예측 평점 행렬의 오차가 최소화하도록 Alternating Least Square 알고리즘을 사용하였다. ALS은 사용자와 아이템 둘 중 하나를 고정(상수로 생각하고)시키고 다른 하나를 최적화 시킨다. 이 과정을 계속 반복하면서 최적의 사용자와 아이템 Latent Factor를 찾습니다.
