@@ -27,6 +27,7 @@
 - 사용자에게 추천된 아이템 중 실제로 구매한 아이템의 수 확인 
 
 
+_________________________________________________________________________________________________________
 References
 - Yifan Hu, Yehuda Koren, Chris Volinsky : Collaborative Filtering for Implicit Feedback Datasets
 
