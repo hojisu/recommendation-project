@@ -30,8 +30,5 @@
 References
 - Yifan Hu, Yehuda Koren, Chris Volinsky : Collaborative Filtering for Implicit Feedback Datasets
 
-
-
-
-
-데이터 출처 : 롯데멤버스, L.pay|L.POINT, 제6회 L.POINT Big Data Competition
+데이터 출처  
+- 롯데멤버스, L.pay|L.POINT, 제6회 L.POINT Big Data Competition
