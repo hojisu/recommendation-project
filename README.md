@@ -34,4 +34,4 @@ References
 
 
 
-[롯데멤버스, L.pay|L.POINT, 제6회 L.POINT Big Data Competition에서 데이터를 제공]
+데이터 출처 : 롯데멤버스, L.pay|L.POINT, 제6회 L.POINT Big Data Competition
