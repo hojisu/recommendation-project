@@ -1,8 +1,8 @@
-# Recommendation System - Alternating Least Square Implicit Collaborative Filtering
+# Recommendation System - Matrix Factorization 
 
 ## Contents
-### [01. Exploratory Data Analysis](https://github.com/hojisu/recommendation-project/tree/master/01-Exploratory-Data-Analysis)
-### [02. Recommend System - ALS](https://github.com/hojisu/recommendation-project/tree/master/02-Recommend-System-ALS)
+### [01. Exploratory Data Analysis](https://github.com/hojisu/recommendation-project/blob/master/01-Exploratory-Data-Analysis/01-Exploratory-Data-Analysis.ipynb)
+### [02. Recommend System - ALS](https://github.com/hojisu/recommendation-project/blob/master/02-Recommend-System-ALS/02-Recommend-System-ALS.ipynb)
 
 ## 데이터
 - 거래 정보, 상품분류 정보 데이터 사용
