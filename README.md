@@ -1,4 +1,4 @@
-# Recommendation System - Alternating Least Square Implicit Collaborative Filtering
+# Recommendation System - Matrix Factorization Implicit Collaborative Filtering
 
 ## Contents
 ### [01. Exploratory Data Analysis](https://github.com/hojisu/recommendation-project/blob/master/01-Exploratory-Data-Analysis/01-Exploratory-Data-Analysis.ipynb)
